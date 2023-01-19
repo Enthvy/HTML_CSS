@@ -62,21 +62,6 @@
 
 
 
-
-.div1{
-    width: auto;
-    height: auto;
-    border: 2px solid orange;
-    box-sizing: border-box;
-    font-family: "Roboto-Bold";
-    font-weight: 1000;
-    font-size: 28px;
-    color: red
-}
-.div2{
-    box-sizing: border-box;
-    font-family: "Roboto-Thin";
-    font-weight: thin;
-    font-size: 14px;
-    color: turquoise;
+section .hero{
+    background-color: grey;
 }
