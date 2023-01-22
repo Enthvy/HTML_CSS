@@ -71,7 +71,9 @@
 }
 
 
-
+body {
+    margin: 0px;
+}
 
 header.hero h1.hero {
     font-family: "Roboto-regular" sans-serif;
@@ -87,10 +89,31 @@ nav.hero a {
 
 header.hero {
     background-color: #1f2937;
+    position: relative;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+div.hero-flex {
+    position: relative;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 section.hero {
     background-color: #1f2937;
+    position: relative;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 div.hero h2 {
