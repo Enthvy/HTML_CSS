@@ -86,19 +86,26 @@ nav.hero a {
     font-size: 18px;
     color: #e5e7eb;
 }
+nav.hero{
+    width: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 25px;
+}
 
 header.hero {
     background-color: #1f2937;
     position: relative;
-    width: 100vw;
+    width: 100%;
     display: flex;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 }
 
 div.hero-flex {
     position: relative;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,8 +118,9 @@ section.hero {
     padding-right: 10rem;
     height: auto;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
 }
 
