@@ -86,7 +86,8 @@ nav.hero a {
     font-size: 18px;
     color: #e5e7eb;
 }
-nav.hero{
+
+nav.hero {
     width: auto;
     display: flex;
     flex-direction: row-reverse;
@@ -96,6 +97,8 @@ nav.hero{
 header.hero {
     background-color: #1f2937;
     position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -104,11 +107,14 @@ header.hero {
 }
 
 div.hero-flex {
+    padding-top: 15px;
+    padding-bottom: 15px;
     position: relative;
     width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 section.hero {
@@ -124,6 +130,11 @@ section.hero {
 
 }
 
+img.hero {
+    height: 350px;
+    width: auto;
+}
+
 div.hero h2 {
     font-family: "Roboto-Bold";
     font-size: 48px;
@@ -137,6 +148,61 @@ div.hero p {
     color: #e5e7eb;
 }
 
+section.info {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+figure.info {
+    padding: 15px;
+    border: solid 5px green;
+    border-radius: 50px;
+}
+
+div.divpicsec {
+    padding: 10px;
+    border: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+img.info {
+    width: 350px;
+    height: 350px;
+}
+
+div.figdiv {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+p.divp {
+    height: auto;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
 section.info h3 {
     font-family: "Roboto-Bold";
     font-weight: bolder;
@@ -144,7 +210,7 @@ section.info h3 {
     color: #1f2937;
 }
 
-section.info figure {
+p.divp {
     font-family: "Roboto-regular" sans-serif;
     font-size: 18px;
     color: #9298a1;
@@ -154,14 +220,38 @@ div.quote {
     background-color: #e5e7eb;
     font-family: "Roboto-Italic";
     font-size: 36px;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 section.action {
     background-color: #3882f6;
     border-radius: 8px;
-    padding: 5px;
-    width: 800px;
-    height: auto;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div.action {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 section.action h4 {
@@ -180,6 +270,15 @@ footer {
     background-color: #1f2937;
     font-family: "Roboto-regular";
     color: #e5e7eb;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
