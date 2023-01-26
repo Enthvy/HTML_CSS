@@ -71,6 +71,14 @@
 }
 
 
+a{
+    text-decoration:none
+}
+a.link{
+    font-family: "Roboto-regular" sans-serif;
+    font-size: 24px;
+    color: #f9faf8;
+}
 body {
     margin: 0px;
 }
@@ -78,6 +86,7 @@ body {
 header.hero h1.hero {
     font-family: "Roboto-regular" sans-serif;
     font-size: 24px;
+    font-weight: 1000;
     color: #f9faf8;
 }
 
@@ -161,10 +170,12 @@ section.info {
 
 figure.info {
     padding: 15px;
-    border: solid 5px green;
+    border: solid 5px #3882f6;
     border-radius: 50px;
 }
-
+img{
+    border-radius: 20px;
+}
 div.divpicsec {
     padding: 10px;
     border: 10px;
@@ -230,6 +241,20 @@ div.quote {
     align-content: center;
     justify-content: center;
     align-items: center;
+}
+p.quote{
+        display: flex;
+        font-family: "Roboto-Bold";
+        font-weight: bolder;
+        font-size: 36px;
+        color: #1f2937;
+}
+div.quotep{
+    display: flex;
+    font-family: "Roboto-Bold";
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937;
 }
 
 section.action {
@@ -298,4 +323,27 @@ button.action {
     padding: 5px;
     width: 120px;
     height: 35px;
+}
+h1.subsite{
+    font-family: "Roboto-Bold";
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937;
+}
+p.subsite{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+div.subsite{
+    padding-left: 10rem;
+    padding-right: 10rem;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
