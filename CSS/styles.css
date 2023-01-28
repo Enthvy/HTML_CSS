@@ -115,7 +115,7 @@ header.hero {
     align-items: center;
 }
 
-div.hero-flex {
+section.hero-flex {
     padding-top: 15px;
     padding-bottom: 15px;
     position: relative;
@@ -144,14 +144,14 @@ img.hero {
     width: auto;
 }
 
-div.hero h2 {
+aside.hero h2 {
     font-family: "Roboto-Bold";
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
 }
 
-div.hero p {
+aside.hero p {
     font-family: "Roboto-regular" sans-serif;
     font-size: 18px;
     color: #e5e7eb;
@@ -176,7 +176,7 @@ figure.info {
 img{
     border-radius: 20px;
 }
-div.divpicsec {
+div.divpics {
     padding: 10px;
     border: 10px;
     display: flex;
@@ -189,13 +189,20 @@ div.divpicsec {
 img.info {
     width: 350px;
     height: 350px;
+    padding: 15px;
+    border: solid 5px #3882f6;
+    border-radius: 50px;
 }
 
-div.figdiv {
+figure.figdiv {
+    padding: 10px;
+    border: 10px;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
 }
 
 p.divp {
@@ -227,7 +234,8 @@ p.divp {
     color: #9298a1;
 }
 
-blockquote.quote {
+figure.quote {
+    margin: 0;
     background-color: #e5e7eb;
     font-family: "Roboto-Italic";
     font-size: 36px;
@@ -349,4 +357,15 @@ div.subsite{
     align-content: center;
     justify-content: center;
     align-items: center;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+article {
+    margin: auto 0;
 }
