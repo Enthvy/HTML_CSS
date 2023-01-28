@@ -227,7 +227,7 @@ p.divp {
     color: #9298a1;
 }
 
-div.quote {
+blockquote.quote {
     background-color: #e5e7eb;
     font-family: "Roboto-Italic";
     font-size: 36px;
@@ -239,7 +239,7 @@ div.quote {
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 p.quote{
