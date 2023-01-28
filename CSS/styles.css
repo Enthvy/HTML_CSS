@@ -334,6 +334,9 @@ p.subsite{
     height: auto;
     display: flex;
     flex-wrap: wrap;
+    font-family: "Roboto-regular" sans-serif;
+    font-size: 24px;
+    color: #9298a1;
 }
 div.subsite{
     padding-left: 10rem;
